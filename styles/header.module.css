@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
-.nav {
+.header {
   background: black;
   color: white;
-  padding: 0.1rem 0;
+  padding: 0.8rem 0;
+  width: 100%;
 }
 
-.nav ul {
+.header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +15,7 @@
   padding: 0;
 }
 
-.nav ul li {
+.header ul li {
   padding: 0 1rem;
 }
 
@@ -26,11 +27,11 @@
 .search {
   border-radius: 15px;
   min-width: 40vw;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   border: none;
 }
 
-.navGroup {
+.headerGroup {
   display: flex;
   justify-content: space-between;
   align-items: center;

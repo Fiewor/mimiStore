@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageContainer {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.image {
+  z-index: 0;
+  position: absolute;
+}
+
+.button {
+  padding: 1rem;
+  z-index: 1;
+}
+
+.details {
+  background: rgb(219, 219, 219);
+  padding: 0.8rem;
+}
+
+.name {
+  text-transform: uppercase;
+}
+
+.price {
+  color: gray;
+}

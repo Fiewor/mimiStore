@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from "react";
 import Head from "next/head";
-import Nav from "./Nav";
+import Header from "./Header";
 import Footer from "./Footer";
 import styles from "../styles/layout.module.css";
 
@@ -17,7 +17,7 @@ const Layout: FC<Props> = ({ children }) => {
           content="Mimi store. Purchase quality and beautiful dresses."
         />
       </Head>
-      <Nav />
+      <Header />
       <div className={styles.container}>
         <main>{children}</main>
       </div>
